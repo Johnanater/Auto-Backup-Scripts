@@ -1,10 +1,10 @@
 **Installion:**
 
-	1. Extract the zip anywhere
-	2. Edit the config section of "autobackup.bat"
-	2. Setup a simple task in task scheduler to run the .bat file
-	3. Run "autobackup.bat", it will automatically backup your servers
-	4. Enjoy!
+1. Extract the zip anywhere
+2. Edit the config section of "autobackup.bat"
+2. Setup a simple task in task scheduler to run the .bat file
+3. Run "autobackup.bat", it will automatically backup your servers
+4. Enjoy!
 
 ---
 	
@@ -44,7 +44,15 @@ This will start BES and make it watch for those programs, then at the end it'll 
 	started. If you don't want this to happen at all, then only run backups
 	when the servers are restarting or offline.
 	
-3. Do you have a Linux version of this?
+3. Which should I choose? WinRAR or 7zip?
+
+	**Answer**: They are both great, so it's mostly down to personal preference. Feel free
+	to experiment
+	
+	Here's a screenshot of a backup of Unturned server files (mostly plaintext with tiny jpgs)
+	https://imgur.com/a/hMDeXsy
+	
+4. Do you have a Linux version of this?
 
 	**Answer**: Even though it's mostly for Windows, yes! I made a quick version of it
 	in Bash. It's called autobackup.sh in this repo!
