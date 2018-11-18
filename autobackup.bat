@@ -55,7 +55,7 @@ SET LOGTIMESTAMP=__%_yyyy%-%_mm%-%_dd%__%_hour%-%_minute%-%_second%
 
 :: This is also a good place to run prebackup procedures (Such as BES)
 echo.
-echo Copying...
+echo Started copying at %TIME% - %DATE%
 echo.
 :: If you need to copy some other folders, just copy paste this line!
 :: Make sure you include a trailing slash if it's a directory!
